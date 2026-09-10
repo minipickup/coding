@@ -15,4 +15,5 @@ int main() {
 	MyClass a3{ a2 }; a3.print();
 	MyClass a4(3); a4.print();
 	return 0;
+	//
 }
