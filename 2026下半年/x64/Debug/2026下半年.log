@@ -1,0 +1,7 @@
+﻿  000测试用.cpp
+  01迷宫.cpp
+  Jam的计数法.cpp
+  狗哥玩木棒.cpp
+  正在生成代码...
+01迷宫.obj : error LNK2005: main 已经在 000测试用.obj 中定义
+D:\C++\2026下半年\x64\Debug\2026下半年.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
