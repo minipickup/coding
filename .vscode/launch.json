@@ -1,0 +1,18 @@
+{
+    // VS Code 调试配置:按 F5 编译并调试当前打开的文件
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MSVC: 调试当前文件",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\${fileDirnameBasename}_${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "MSVC: 编译当前文件"
+        }
+    ]
+}
